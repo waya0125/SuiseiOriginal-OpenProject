@@ -1,17 +1,16 @@
 # SuiseiCabModule
-    ■　彗星鉄道車両研究所製作 運転台 Ver1.4　■
+    ■　彗星鉄道車両研究所製作 運転台 Ver1.5　■
 
     作者     : わや
-    Ver      : 1.4.0
+    Ver      : 1.5.0
     製作垢   : https://twitter.com/Suisei_THFactry
     作者Page : https://twitter.com/wayamoti2015
     作者HP   : https://waya0125.com/
     Discord  : waya#0125
 
 # ◆ライセンス◆
-この作品には「**ライセンスA**」が適用されます。  
-ただし、コードやmqoなどの内蔵データを自己パックとしてリリースする際は[TwitterDM](https://twitter.com/Suisei_THFactry)まで一声お声掛け下さい。  
-ライセンスの詳細は同一リストにある[LICENSE](https://github.com/waya2018/SuiseiCabModule/blob/main/LICENSE)ファイル、もしくは[製作者ウェブサイト](https://waya0125.com/RTM_LICENSE.html)を必ずご参照下さい。
+この作品には「**GPL-3.0**」が適用されます。  
+ただし、コードやmqoなどの内蔵データを自己パックとしてリリースする際は[TwitterDM](https://twitter.com/wayamoti2015)まで一声お声掛け下さい。  
 
 # ◆仕様書◆
 このパックは「アドオン」です。そのままでは使えません。  
@@ -120,6 +119,11 @@ else {Dummy.render(renderer);}
 ```
 
 # ◆更新履歴◆  
+### Version 1.5
+運転台のUVを一新したため互換性が失われました。(またか)
+速度系表示を最適化、他TIMSのUIを最適化。
+運転台のフォントがまた変更されました。
+CS-ATC、ATS-P、ATS-Sn、D-ATC、ATO、TASC等の表記に対応。
 ### Version 1.4
 運転台のUVを一新したため互換性が失われました。
 新CS-ATCより刻みを増やし、任意の値で制限できるようにしました。
